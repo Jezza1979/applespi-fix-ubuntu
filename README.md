@@ -1,6 +1,6 @@
 # Applespi Fix for Ubuntu Kernels
 
-This repository contains modifications to the Applespi driver that fix compilation errors on newer Ubuntu kernels (tested on Ubuntu 24.04.2 LTS with Linux kernel 6.8.0-41-generic). This fix is useful for users running Ubuntu on older Apple hardware (e.g., MacBook8,1) who require working keyboard, touchpad and other Apple-specific input devices and wish to upgrade Ubuntu. This fix has not been tested on other devices of similar vintage but seems to be working OK. 
+This repository contains modifications to the Applespi driver that fix compilation errors on newer Ubuntu kernels (tested on Ubuntu 24.04.2 LTS with Linux kernel 6.8.0-41-generic). This fix is useful for users running Ubuntu on older Apple hardware (e.g., MacBook8,1) who require working keyboard, touchpad and other Apple-specific input devices and wish to upgrade Ubuntu. This fix has not been tested on other devices of similar vintage but seems to be working OK on the MacBook8,1. 
 
 Note: the trackpad was not initially recognised on reboot (keyboard ok), though the file has worked fine since. I haven't been able to replicate the problem.
 
